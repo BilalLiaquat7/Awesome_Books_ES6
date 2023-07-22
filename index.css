@@ -1,24 +1,23 @@
 body {
-    margin: 0 auto;
-  }
+  margin: 0 auto;
+}
   
-  nav ul {
-    width: 30%;
-    display: flex;
-  }
+nav ul {
+  width: 30%;
+  display: flex;
+}
   
-  nav li {
-    list-style-type: none;
-    margin-right: 10%;
-  }
-  
-  nav li a {
-    text-decoration: none;
-  }
-  
-  .list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.1rem;
-  }
-  
+nav li {
+  list-style-type: none;
+  margin-right: 10%;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
