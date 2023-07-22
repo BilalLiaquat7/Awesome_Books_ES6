@@ -28,9 +28,13 @@ export const displayBooksList = () => {
       const oneBook = document.createElement("div");
       oneBook.innerHTML = `
         <span>"${allBooks[i].title}"</span>
-        <span>"${allBooks[i].author}"</span>
-        <button type="button" onclick="remove(${i})">Remove</button>`;
+        <span>"${allBooks[i].author}"</span>`;
 
+      const btnRemove = document.createElement("button");
+      btnRemove.type = "button";
+      btnRemove.textContent = "Remove";
+      btnRemove.addEventListener("click", () => remove(i));
+      oneBook.append(btnRemove);
       listSection.append(oneBook);
     }
   }
