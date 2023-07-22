@@ -21,3 +21,10 @@ nav li a {
   flex-direction: column;
   gap: 1.1rem;
 }
+
+.dateTime {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 2rem;
+}
